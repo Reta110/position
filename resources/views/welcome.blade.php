@@ -23,7 +23,7 @@
         <form class="form-horizontal" id="form">
             <div class="form-group">
                 <input type="hidden" name="_token" value="{{csrf_token()}}">
-                <label for="inputEmail3" class="col-sm-2 control-label">Url</label>
+                <label for="inputEmail3" class="col-sm-2 control-label">Ingrese una URL:</label>
                 <div class="col-sm-10">
                     <input type="text" class="form-control url" data-validation="url" placeholder="Ingrese una url válida">
                 </div>
